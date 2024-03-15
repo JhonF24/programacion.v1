@@ -6,7 +6,9 @@
   "scripts": {
     "app": "node app.js",
     "sum": "node operations/sum.js",
-    "sub" : "node operations/basic/sub.js"
+    "sub" : "node operations/basic/sub.js",
+    "variables" : "node variables.js",
+    "operation" : "node operation.js"
    },
   "keywords": [],
   "author": "",
