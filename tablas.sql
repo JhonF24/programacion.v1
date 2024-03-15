@@ -27,7 +27,12 @@ create table docentes(
 		id_notas int(2) not null auto_increment,
         puntuacion_nota character(3) not null,	
         primary key(id_notas)
-    )AUTO_INCREMENT=10;horario
+    )AUTO_INCREMENT=10;horariojornada_materiasjornada_materias
     
-    ALTER TABLE horario CHANGE jornada_materia jornada_materias character(1);
+    ALTER TABLE horario CHANGE jornada_materia jornada_materias character(1);
+    alter table horario change jornada_materias materia character(1);
+    alter table docentes rename profesor;
+    
+    #adicionar columnas a la tabla
+    ALTER TABLE materia ADD horario varchar(7), ADD fecha_Finaliacion varchar(7);
     
