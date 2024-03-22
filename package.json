@@ -8,7 +8,10 @@
     "sum": "node operations/sum.js",
     "sub" : "node operations/basic/sub.js",
     "variables" : "node variables.js",
-    "operation" : "node operation.js"
+    "operation" : "node operation.js",
+    "operadores2" : "node operators_compa.js",
+    "metodos" : "node metodos_string.js"
+
    },
   "keywords": [],
   "author": "",
